@@ -72,3 +72,40 @@ C:\Users\hitesh.sahu\Downloads\Getting Started with SignalR 2.0 and MVC 5\C#\Sig
 C:\Users\hitesh.sahu\Downloads\Getting Started with SignalR 2.0 and MVC 5\C#\SignalRChat\obj\Debug\SignalRChat.csprojResolveAssemblyReference.cache
 C:\Users\hitesh.sahu\Downloads\Getting Started with SignalR 2.0 and MVC 5\C#\SignalRChat\obj\Debug\SignalRChat.dll
 C:\Users\hitesh.sahu\Downloads\Getting Started with SignalR 2.0 and MVC 5\C#\SignalRChat\obj\Debug\SignalRChat.pdb
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\SignalRChat.dll.config
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\SignalRChat.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\SignalRChat.pdb
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\Antlr3.Runtime.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\Microsoft.Owin.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\Microsoft.Owin.Security.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\Microsoft.Web.Infrastructure.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\Newtonsoft.Json.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\Owin.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\System.Web.Helpers.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\System.Web.Mvc.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\System.Web.Optimization.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\System.Web.Razor.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\System.Web.WebPages.Deployment.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\System.Web.WebPages.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\System.Web.WebPages.Razor.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\WebActivatorEx.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\WebGrease.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\Microsoft.Owin.xml
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\Microsoft.Owin.Security.xml
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\System.Web.Helpers.xml
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\System.Web.Mvc.xml
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\System.Web.Optimization.xml
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\System.Web.Razor.xml
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\System.Web.WebPages.xml
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\System.Web.WebPages.Deployment.xml
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\System.Web.WebPages.Razor.xml
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\Newtonsoft.Json.xml
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\Antlr3.Runtime.pdb
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\obj\Debug\SignalRChat.dll
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\obj\Debug\SignalRChat.pdb

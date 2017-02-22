@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>FontAwesome.MVC</id>
+    <version>1.0.0</version>
+    <title>FontAwesome.MVC</title>
+    <authors>Dave Gandy</authors>
+    <owners>Dave Gandy</owners>
+    <licenseUrl>http://fontawesome.io/license/</licenseUrl>
+    <projectUrl>http://fontawesome.io/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Adds bundling and minification support for users of FontAwesome. Package Issues? Post them to https://github.com/JustLikeIcarus/Font-Awesome-NuGet/issues</description>
+    <summary>Adds bundling and minification support for users of FontAwesome</summary>
+    <releaseNotes>Target: MVC Projects 
+Bundle config for @Styles.render('~/Content/fontawesome')</releaseNotes>
+    <tags>FortAwesome FontAwesome Font Awesome Iconic Twitter Bootstrap</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.Mvc" />
+      <dependency id="Microsoft.AspNet.Web.Optimization" />
+      <dependency id="WebActivatorEx" />
+      <dependency id="FontAwesome" version="4.0.3" />
+    </dependencies>
+  </metadata>
+</package>
