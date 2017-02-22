@@ -1,17 +1,30 @@
-﻿@{
+﻿
+@{
     ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<div class="row">
+    <div class="col s12 l8 offset-l2">
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+        <div class="card horizontal z-depth-1" style="margin-top:20px">
+            <div class="card-image  valign-wrapper">
+                <img class="valign" style="margin-left:15px"
+                      src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTERUSEhIVFRUXFxYYFxcWGBgVFxcaGBcYFhYXGhcYHSggGxomHRUYITEhJSkrLi4uFyAzODMtNygtLisBCgoKDg0OGhAQGy0fICUtLS0rLS0tLS0rLS0rKy0tLS0tLS0tLSstLS0tLS0tLS0tLS0tKy0tLS03LSs3Nzc3N//AABEIAI8AjwMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAFBwMEBgIBAP/EADwQAAIBAgQDBQQJAwMFAAAAAAECEQADBBIhMQVBUQYTImFxMoGRsQcUI0JicqGywVLR8BUkMxdTc4Lx/8QAGgEAAgMBAQAAAAAAAAAAAAAAAgMBBAUABv/EACURAAMAAgIBAwQDAAAAAAAAAAABAhEhAxIxBEFRBRMiMkJhcf/aAAwDAQACEQMRAD8AYDUPRhLD8R/iirJQk2QS+jTn3ERED9aqOS6j67aBqnat+Ef5zqbFi4iO6gkKpPi30E8q64T47NtjuVBPqdaU52HkHJaDXboIkFLcg6jd6p4y9cw6OyO2RRmykzlHMA7x5GtJg8MO/uH8Fv5vUl7AI8qwkEa+dT1aIyjJXsZfbQlmAEkFtUnnH+bVV4pjxasG7buifZuWyYZh+GN9dwaLdprQw9h7pIzL7DeyQTstJ/E8QuXbhZzuZJgCiiG/JFWkbHDdrSplrZQiGXUHbUV4nb/FrMXMoJJ0ERO9Y2455N8df/lQNf66nqacuMS+QYtj6RLgIN1FeABmBKEjnOXnFEbHa3DXhAU25Ybw+Xl7WmnlFKy3iORH611bxGQ+E+vMGofEmSuQcqWCpMqDoRqDp5jzq9w22AwJOxHvj02rJ8B7bgottnYMABoTrFM7s+Cyku2YGIM/oRyquuNu8D65NZJ7XFVAALL7yRQjtMRcYFDOnWaLcbUhAU0M76RHvoNb79tireQymncltLoxcJfsgdhcJOXQqdcxOoOumnKimMwAS0fEpYkQRyHPbeiWAtMSFuJHnC1ZxmCTITlBOmmUHnQRxayTXJsqip+G4ZSrEjXM38VAKtcJbwt+dv4qxCWRVZwfcTwy9zcAH3H/AGms/wADT7G3+UVpOJP9lc/I37TQLgKzZt/lFDyJdtBQ/wASa1/zP+S383qDEFg0qJgbddevKrFkf7i5/wCO3+65V/A2pz+o+RqFOSW8Cp+k3jqthzh4IfvBmEjYAHboSf0pUFuhra/S1I4jdXoAR7xWZ4Lwl77aA5Z1P8CjnErYus1WEU1czU4wTkSFNMfg/Zy0g1UE+etH/wDSLcaKB7qW+b+h8+mWNsSj4ZxuCKjIpz3eAIRBAPuoFxXsrbZTpB60U8pFel1pi8wjwwPQg0+fo57XW3w3d3SQ9sxIBbMpGhMcxtSL4hg2svlOtbH6LS31o/0920j3gCjp4/JCVLz1Y6sTxnDMpUvv+Fv7VF9US3LTljnQu6J5Dl8xRLi9yLTe751Tu3W2PmMaRa/1a2FjvVnaSD/ag2N4wwaEu5h1G3pQwXK9s5M03FYj8MT+tKrlqkPnhid+S7xu4xti0pKm7cS3I0IHtOR55QfjRrhtzRx+M/JaG45ka9h0B8SLduEeuVAfnVnAN/yfnP7Vq8lhlV7LfEH+zufkb9pqj2RWbFr8gqfHH7O5+R/2mhvZ3iIs4JLpE5bRMekkfKof7HfxPuH8VtHFMr3bYZgiqpYAnx3ABBOpiPjRiziwnfl9FQzPOADNKTE8MxT8VsXVwzMlu5h3zASAmYS5PTRvhW/45fLYW4+2fI5jzYtHnRZwjksvAne3d36zxBrltGHfZYUnUGMpkj0mrly2LQW3sqCWyyC3XUVY4cfrGLa6VgW10HmedahcCHGmnXzFKd5HxxJZFx9cyN9iXQnUDqPdvR7g/abEyB7dEsbwETIOU8jA061Y7O9kkJz52MNtG/xqdMlRSYTs9pbcePQ850irJxtu6vgIPoZrO9r8G1oOVQEMwB6AZdDHLWdayvDbDMSxzIA4TMDAltqLplEvkwXe3loALA1BrSfRVhQuHuXI8TPln8KgEAeUmsnxnA3bj2LIYXHcsAZkqJiWPQa6/hpqcOsJZtJaSAqKB8Nz6k1FanArHasl5jt6irPH2iw5/L86om4JGvMfOrXaoxhnPmn7qVS0Ev2QCwGNuISURX/MpaPhU1/tHdUwbFifNWH80EtYt19i46dcpiagxOKZjmd2Y9WMmk+Cy4TezXYczjr34bNoD/2ZiflXp4/h7Ny4l24EbPMEHYqsHQetLt+1OJNy5cDhGfKDlUbJOUCZ/qNDMTji5L3HLNzLGTpVvL9ip0XuNTF9qsIbbgX1JKMAIbcgxyrOWO0thcAllmYvkClQp08Wup02rBYjHwAQpMmBOg+NUr2NcmIAB2rutt5IbidDGxPbgI117No62VUFzGUhmObKBro21DV4g1m4MM+IXK3iLKQynPDgt5jaOVYk37mx0JEeo6VG9hpgrB89/OKL7b9wPuLOjfYNVTOwPtsWJiPSByEUQw3EAKzV3HculVcR3t1gto+e8D30noyyrNjxLHKlvvbg8IOuXXepOz3aey0qo0FZfDJeRPHYZ1HtHOGUeoFVsbwhM+dC9g/eUbeRo5kNtvZt+K3BdcFTpBBoS/DEBEqG1kco9Kpdm7gtk22Y5jrrsfMVf4jisttyN4IHqdB+tEvJ2mgThLQbE94N2Y2razMAe0ST1YnWtOOEX+Sj3GgnAeEsMVhxcBVQ2b2TrkGbKZOxjemiGt8oHuilcy2BNYQp7V64rPbufZ3EM+Nip3OXyg7ipr3GrzDK9xrimNMxI0rV9suE2nKXWdUWYvORJ7sAsDr/AEnWl5jxbt3Cltg6gmLgJIbXTT0p3HSpYBr5C9q5m+8BEaAtNSnBFpK3AfLxEkddtqDrduKDmse0Mqk5hHpG3vqZLJ8P+2XMAZAJGbSPE2aDrrvTlM/APZmbtcQmYV2AkkokgDqTyo1wHhYddVgMCbbXLWVLusAd4xA11kgmKenELIuWrlhjlW4pQ5FGzCCR5+tZ7CdjMMlm3Ya7eNi0S+RyoV3gDO8r5bDSa5L4KrfyKjh/DsRcFzuMLiLio2VxkVtY2J3bnBWvn4TjLKZ/qN3INy9ojfSIOrHUbU9eG4eyr3bqNPesHeXBAIUKAo+6sDb1obxbjdqV7sXbnduLhKeFSwBCpmYa7nbyo1FMB3KQjMO1yADYunWMvdMzT0giZorwbhbH7R1dEUkBbi5WLDfQ6gCm1jO19wrCpkJ+9mzEfxNY3il0tJJJJ3O80rm7R5Q3g637i+v3Idh0JolwVmGZ11GxNDe0FiHkc6qcO4q1oMvI/p50tbQzt1rZqbnHXsNmIMbSN46EHerScbs30Km2PFvAKT6gaGg1jtDOjAMD1ANfXMcs+ABR0G1ctDly4LNuyVdYYlRtP3fKaMY7OthMQynuzcyCDBZgJ08h1rvsF2dbGszMctlWGdvvHnkXzjnymnIuEsi2LOVO7AyhDqIjaDRxOdsVfLjwLDsTwm+2IS8+Hui0bbFWbVTmjKRrIMTv1rfXsOF3WKK4W0iKLdsAKogAbKOQqUgcxXXwqti1ytMyuIwi3CwKyApEHYlt/gP3Uqe0/BTh7ufKO7dlhRoASJ/inWFEnzJPxoTxXglu8hRwIKkCRIBBOVuWomqs5iizlUhP27lxJJR2RvZJzZSvoOfrWrwHZPHXLa3AiOjgMk3AIBGxWN60P0R4a5YGMsXM3huqyyCsjLkzAEc8s0wKuztZK1W5eBfcSe/cgLeW0nOFLOf1AFUzZVfvOx6s5M/DSu7uIO8z+tVbt0mtqeJLwjAvlpvLJBjSDrqP1HnPMVHj7atrE+/f0Iqm5qXDvOnw/tR9EiFTILNldwSPUzX1y2TyPzBru/aM5l0PTkaiBnVSVbmKiuNUsMKeSpeUZ3jnDy6mNxrHzrGvb1pm3rWbXZuo5+tZbjXDSDnA0+9HI9fQ1T5PRytyXOP1dVqgBYt9RRXB4EEjkK5w2EoxgsPlZd9xoarP0llyeePcZXZHhwtW7Np1EM5LLyOZdD+grajAWwVIXVdt9KxfD8dmAYHXqKn492yaxbClUUupUXC8Q3M5Y3Ag71FcPRHff7s2VtYLQIGnvPOuyaUOF7blCS163dzRrcLwI3jKRUeF7dlLved+GEk92S2TXl150vIzqNLiUC2Qogkgab0P4eG7xc4MTGvnS+419JHfKFGW1BBzWzczGAdNeWtA37XD/v3T72pFxmk0Nml1wx9LaUNIUBiAJjUjkK6Dg8xSQ4X9JD2AwQ5wxB+0DNr1BnSqmP7cm9c712IaAPApVeYnLO9P7aE4TDP+lhNcOxtHmm6H1U7eoryzjCWysuS4N15EdVPMUSvP7jQbi9osuZdLieJT0PMeh6VvGD5LN1udcrc5iquAxgvWw40kajoeYrta7yiMY0EzVTFYefEphhUuGuSBUpFSTkoWbubQiGHLr6V9fs9df82NXv8AS2vEd2PEduQJAmJ6+VSYfBM1pS8AswUCDIJZkE6RMqZHKgdL5CUsyuK4aLZlRNtv0NfWTlID6ryYbj+9H71hrbNbcbaEbj1FVX4dI8GqnlzFR/gzJd4beKxBkcjU3bLBd/grmUS6DvAPNdSPeJFDcHauWjtKk6j+fWtNhH6aqf8ADSbjKGzeBFd4YOtfZzRHtDwz6vibtkbBzk/KQGX9DHuoao+ZrJaw8F9PKPXuHevFb510y6DzNcKdDUBHIY11mrlRXVsb1xAycbZu2znsOT1tt4gfTnUeE4kLy5hoZ8S9D/apUxeZAaz+Gu5MWw5ONvOt1sx1J3gbxsXyv3XMjpM1oGbmKC8UsSMw3FXsFelKJIitoIWLkUQsXAdJoOrVPhcSQQehnrtUtaFz5NFxDEhMq2ojKJZTo8ew2XdXGoNDb1kXBIJnff4+/wA6mxGK7xzcKqpO4WYnmda4MgjX1qtN9dNB3e9Edq+VAW6rNbncbqYideWg0qW5g3twy6qwDCIMg89K7dp1nSobblDoZH8dKOayzprJKrhuUGpsO2WvVZW15149MCyBO1vZN8ZdS9ZdVYJkYNOpBJUj3EigyfRtd0zYhYmCVUtB+NMHht3WDzojh7QCkBgAdh61gevd8fJr3Nv0Si+PflCwsfRu7SPrGx08PhIjeeR8q8s/R3mMd+SAJaAN+g6017doaplyxGvXziq62hLxAiFJ2HmZ5HX9Kz3zX8l1ccfAsP8Ap+ugFy4ZXQ+GM0xB02of2j4d9SVLBtWyT9pnZQbpkkZTcG66aCKcDWMtshAW5gsOQ3PpS/8ApcwWUYd9SIZNdT/Vv0pnDyU6wwOWJU6QJwTRnT+lmA+YoReuxiQanTExibiRtLfEUOxDfaz0r0XHfaEzE5IxyM1gMiK4srlqHDXNAfKps8mra8FRlpWqJnIM14rVznqRZofq5tohuFJf2VDAsBAIJA5a1KreVCeCBmudygUG5IZ28RCAZiEHJvCdfTar6JMFDnRi+Qnwkqm7EcuenlVRxlvIdRnaJZjerWJYd1bWbZOrGB41/Cx5jmK5w2D8Q73RZUGN/GpZTsdIB86hxuMNxszxMASBExIk+dFErKwdK6rZEBFdi7UJevi9WCC9hrsGtRhmziQYICx7qxdl9a2WByKikk6gH31kfVUuqZrfTW8s7tKWcufNdtx0qLETMAQugMbHyNXMxDKB7Bmes1FiSoyxszaisJ+DXTIr94BsswCpHTyrMfSBgBcwndg+MOpXNqIgg/OtTdVSdVzE7dVnzoRjEJuAsPBqIMEEjyrprq8k9e2j/9k=">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <p>Love this Project? Find more on Github.</p>
+
+                  <b>  <strong>Support:</strong><a href="mailto:hiteshkumarsahu1990@gmil.com"> hiteshkumarsahu1990@gmil.com</a><br />
+
+                    <strong>Contact: </strong><a href="tel:8888813275"> 8888813275</a></b>
+</div>
+                <div class="card-action">
+                    <a href="https://in.linkedin.com/in/hitesh-sahu-99639040"> Linkedin</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>

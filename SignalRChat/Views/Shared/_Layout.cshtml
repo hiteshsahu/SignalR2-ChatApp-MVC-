@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
     <title>@ViewBag.Title - Chat App</title>
     @Styles.Render("~/Content/css")
-    @*@Scripts.Render("~/bundles/modernizr")*@
+    @Scripts.Render("~/bundles/modernizr")
 
    
 </head>
@@ -49,13 +49,28 @@
         </div>
     </div>*@
 
-    <div class="container body-content">
+    <div  style="min-height:550px">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
+      
     </div>
+
+        <!--Footer-->
+    <!--Footer-->
+    <footer class="page-footer teal">
+        <div class="container white-text">
+            <h5 class="white-text">Chat App with SignalR™</h5>
+            <p>Form me on <a class="brown-text text-lighten-3" href="https://github.com/hiteshsahu/SignalR2-ChatApp-MVC-">GitHub.</p>
+        </div>
+
+
+        <div class="footer-copyright">
+            <div class="container">
+                ©2017 <a class="brown-text text-lighten-3" href="http://hiteshsahu.com/.com">Hitesh Sahu All rights reserved.</a>
+            </div>
+        </div>
+    </footer>
+
+
 
     @Scripts.Render("~/bundles/jquery")
     @*@Scripts.Render("~/bundles/bootstrap")*@
