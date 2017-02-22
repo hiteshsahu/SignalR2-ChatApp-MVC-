@@ -12,20 +12,20 @@
 <body>
 
      <!--Navigation header-->
-    <nav class="white" role="navigation">
+    <nav class="teal white-text" role="navigation">
         <div class="nav-wrapper container">
-            <a id="logo-container" href="#" class="brand-logo">Logo</a>
+            <a id="logo-container" href="#" class="brand-logo white-text">Chat App</a>
             <ul class="right hide-on-med-and-down">
-                <li>@Html.ActionLink("Home", "Chat", "Home")</li>
-                <li>@Html.ActionLink("About", "About", "Home")</li>
-                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                <li>@Html.ActionLink("Home", "Chat", "Home",new { @class = "white-text" })</li>
+                <li >@Html.ActionLink("About", "About", "Home", new { @class = "white-text" })</li>
+                <li >@Html.ActionLink("Contact", "Contact", "Home", new { @class = "white-text" })</li>
             </ul>
-            <ul id="nav-mobile" class="side-nav">
-                <li>@Html.ActionLink("Home", "Chat", "Home")</li>
-                <li>@Html.ActionLink("About", "About", "Home")</li>
-                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+            <ul id="nav-mobile" class="side-nav teal white-text">
+                <li >@Html.ActionLink("Home", "Chat", "Home", new { @class = "white-text" })</li>
+                <li >@Html.ActionLink("About", "About", "Home", new { @class = "white-text" })</li>
+                <li >@Html.ActionLink("Contact", "Contact", "Home", new { @class = "white-text" })</li>
             </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="fa fa-anchor"></i></a>
+            <a href="#" data-activates="nav-mobile" class="button-collapse white-text"><i class="fa fa-anchor"></i></a>
         </div>
     </nav>
 
