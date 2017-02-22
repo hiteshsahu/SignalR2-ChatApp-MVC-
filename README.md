@@ -1,7 +1,7 @@
 # SignalR2 Responsive ChatApp in MVC
 
 
-![Alt text](https://github.com/hiteshsahu/SignalR2-ChatApp-MVC-/blob/master/Art/banner.png?raw=true "Chat App")
+![Hitesh Sahu](https://github.com/hiteshsahu/SignalR2-ChatApp-MVC-/blob/master/Art/banner.png?raw=true "Chat App")
 
    SignalR is Microsoft's counter part for Google's Firebase. This repo is an attempt to collect all of my learnings as Microsoft's documentation is a big time mesh. 
    
@@ -19,6 +19,8 @@
 - .NET 4.5
 -  MVC 5
 -  SignalR version 2
+
+![Hitesh Sahu](https://github.com/hiteshsahu/SignalR2-ChatApp-MVC-/blob/master/Art/android_chatting.png?raw=true "Chatting")
 
 ## How To Build  ##
 
