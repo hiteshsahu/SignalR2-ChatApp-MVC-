@@ -109,3 +109,4 @@ D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\Newtonsoft.Json.xml
 D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\bin\Antlr3.Runtime.pdb
 D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\obj\Debug\SignalRChat.dll
 D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\obj\Debug\SignalRChat.pdb
+D:\GitSecret\SignalR2-ChatApp-MVC-\SignalRChat\obj\Debug\SignalRChat.csprojResolveAssemblyReference.cache
